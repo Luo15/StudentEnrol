@@ -9,7 +9,7 @@ class Leader {
         String office
         String bio
 
-String toString(){"fullName,office"}
+String toString(){"$fullName, $office"}
 
     static constraints = {
 
