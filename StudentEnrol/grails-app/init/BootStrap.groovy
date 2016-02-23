@@ -22,6 +22,22 @@ class BootStrap {
                                    password:'ctxdpwnx',
                                    course:'Computing').save()
 
+             def lecturer1= new Lecturer(
+                                   name:'Jack',
+                                   post:'XXX',
+                                   email:'lecturer@my.shu.ac.uk',
+                                   department:'Computing',
+                                   subject:'Computer',
+                                   research:'XXXXXXXXXXXXXX').save()
+
+             def leader1= new Leader(
+                                   fullName:'Dr Anne Roberts',
+                                   post:'Senior Lecturer',
+                                   subject:'Animation',
+                                   email:'a.d.roberts@theUni.ac.uk',
+                                   office:'Room 1234',
+                                   bio:'''Lorem ipsum dolor sit amet, an nllum epiurir definitionem''').save()
+
     }
     def destroy={
     }
